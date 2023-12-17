@@ -20,7 +20,7 @@ body{
 #mainTitle {
     text-align: center;
     font-weight: bold;
-    font-size: 100px;
+    font-size:xx-large;
 }
 
 ul, ol {
@@ -58,17 +58,15 @@ h2 {
     text-indent: 0;
 }
 
-.recipeImageContainer {
+.recipeImageContainer{
     display: flex;
     flex-direction: column;
-    justify-self: center;
-    width: 100%;
-    max-height:800px;
+
 }
 
 img {
-    
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
     object-fit: contain;
     margin-bottom: 10px;
 }
